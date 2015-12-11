@@ -1,4 +1,4 @@
-source $HOME/.config/nvim/plug_config.vim
+source $HOME/.config/nvim/plug.vim
 
 "General
 set history=950
@@ -20,6 +20,7 @@ filetype indent on
 set backspace=indent,eol,start
 set autoindent
 set smartindent
+set breakindent
 
 "UI config
 set number
