@@ -13,10 +13,12 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'luochen1990/rainbow'
 
     "Syntax
+    Plug 'Valloric/YouCompleteMe'
     Plug 'dag/vim-fish'
     
     "UI
     Plug 'scrooloose/nerdtree'
+    Plug 'christoomey/vim-tmux-navigator'
 
     "Tools
     Plug 'tpope/vim-fugitive'

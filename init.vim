@@ -1,4 +1,7 @@
+"package manager
 source $HOME/.config/nvim/plug.vim
+source $HOME/.config/nvim/keymap.vim
+source $HOME/.config/nvim/tmux.vim
 
 "General
 set history=950
@@ -40,15 +43,10 @@ set incsearch
 set hlsearch
 set ignorecase
 set smartcase
-nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 "Folding
 set foldenable
 set foldlevelstart=10 
-nnoremap <space> za
 set foldmethod=indent
 
-"Movement
-nnoremap j gj
-nnoremap k gk
-
+"Key mapping
