@@ -12,9 +12,12 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'jonathanfilip/vim-lucius'
     Plug 'luochen1990/rainbow'
 
-    "Syntax
+    "Syntax & autocomplete
     Plug 'Valloric/YouCompleteMe'
     Plug 'dag/vim-fish'
+    Plug 'SirVer/ultisnips'
+    Plug 'honza/vim-snippets'
+    Plug 'ternjs/tern_for_vim'
     
     "UI
     Plug 'scrooloose/nerdtree'

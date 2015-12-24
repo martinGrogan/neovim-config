@@ -20,3 +20,8 @@ nnoremap <C-l> <C-w>l
 
 "folding
 nnoremap <space> za
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-s>"
+let g:UltiSnipsJumpForwardTrigger="<c-s>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"

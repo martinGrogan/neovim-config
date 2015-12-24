@@ -1,3 +1,7 @@
+"Python environnent
+let g:python_host_prog = '/usr/local/bin/python2.7'
+let g:python3_host_prog = '/usr/local/bin/python3.5'
+
 "package manager
 source $HOME/.config/nvim/plug.vim
 source $HOME/.config/nvim/keymap.vim
