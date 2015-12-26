@@ -13,11 +13,12 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'luochen1990/rainbow'
 
     "Syntax & autocomplete
-    Plug 'Valloric/YouCompleteMe'
+    Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer' }
     Plug 'dag/vim-fish'
-    Plug 'SirVer/ultisnips'
-    Plug 'honza/vim-snippets'
+    Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
     Plug 'ternjs/tern_for_vim'
+    Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+    Plug 'vim-scripts/paredit.vim', { 'for': 'clojure' }
     
     "UI
     Plug 'scrooloose/nerdtree'

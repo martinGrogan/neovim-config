@@ -2,10 +2,11 @@
 let g:python_host_prog = '/usr/local/bin/python2.7'
 let g:python3_host_prog = '/usr/local/bin/python3.5'
 
-"package manager
+"Externals files
 source $HOME/.config/nvim/plug.vim
 source $HOME/.config/nvim/keymap.vim
 source $HOME/.config/nvim/tmux.vim
+source $HOME/.config/nvim/ui.vim
 
 "General
 set history=950
@@ -29,19 +30,6 @@ set autoindent
 set smartindent
 set breakindent
 
-"UI config
-set number
-set showcmd
-set wildmenu
-set wildignore=*.dll,*.o,*.obj,*.bak,*.exe,*.pyc,*.jpg,*.gif,*.png
-set lazyredraw
-set showmatch
-set ruler
-set laststatus=2
-set confirm
-set so=10
-set cmdheight=2
-
 "Searching
 set incsearch
 set hlsearch
@@ -53,4 +41,3 @@ set foldenable
 set foldlevelstart=10 
 set foldmethod=indent
 
-"Key mapping
