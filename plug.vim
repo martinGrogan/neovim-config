@@ -23,6 +23,8 @@ call plug#begin('~/.config/nvim/plugged')
     "UI
     Plug 'scrooloose/nerdtree'
     Plug 'christoomey/vim-tmux-navigator'
+    Plug 'bling/vim-airline' 
+    Plug 'edkolev/tmuxline.vim'
 
     "Tools
     Plug 'tpope/vim-fugitive'

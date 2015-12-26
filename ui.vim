@@ -1,12 +1,4 @@
-" spiiph's
-set statusline=
-set statusline+=%<\                       " cut at start
-set statusline+=%2*[%n%H%M%R%W]%*\        " flags and buf no
-set statusline+=%-40f\                    " path
-set statusline+=%=%1*%y%*%*\              " file type
-set statusline+=%10((%l,%c)%)\            " line and column
-set statusline+=%P                        " percentage of file<Paste>
-
+"General Ui setings
 set number
 set showcmd
 set wildmenu
@@ -19,8 +11,13 @@ set confirm
 set so=10
 set cmdheight=2
 
-" If you prefer the Omni-Completion tip window to close when a selection is
-" made, these lines close it on movement in insert mode or when leaving
-" insert mode
+"Color and Theme
+colorscheme lucius
+LuciusBlackLowContrast
+syntax enable
+highlight LineNr ctermfg=darkgray ctermbg=black
+let g:rainbow_active = 1
+
+"Autocomplete split should close 
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif

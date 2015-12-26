@@ -12,13 +12,6 @@ source $HOME/.config/nvim/ui.vim
 set history=950
 set autoread
 
-"Color and Theme
-colorscheme lucius
-LuciusBlackLowContrast
-syntax enable
-highlight LineNr ctermfg=darkgray ctermbg=black
-let g:rainbow_active = 1
-
 "Space, Tabs & Indentation
 set tabstop=4
 set softtabstop=4
@@ -40,4 +33,3 @@ set smartcase
 set foldenable
 set foldlevelstart=10 
 set foldmethod=indent
-
